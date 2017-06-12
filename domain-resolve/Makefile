@@ -10,5 +10,5 @@ $(objects): %.o: %.c
 	$(CC) -c $^ -o $@ $(LIBS)
 
 clean:
-	-rm -f *.o
+	rm -f *.o main6
 
